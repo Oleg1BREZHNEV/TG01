@@ -5,9 +5,9 @@ from aiogram import Bot, Dispatcher,F
 from aiogram.filters import CommandStart, Command
 from aiogram.types import Message
 from config import TOKEN
-
+from config import WEATHER_API_KEY
 # Ваш API ключ OpenWeatherMap
-WEATHER_API_KEY = '80adf0f917ab00389839d772b2d4f1e2'
+#WEATHER_API_KEY = '80adf0f917ab00389839d772b2d4f1e2'
 WEATHER_API_URL = 'http://api.openweathermap.org/data/2.5/weather'
 
 
